@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { userAPI, authAPI } from '../services/api';
+import { userAPI } from '../services/api';
 import { DZONGKHAGS, ZODIAC_SIGNS, COMMON_INTERESTS } from '../utils/constants';
 import PhotoUpload from '../components/PhotoUpload';
 import type { User } from '../types';

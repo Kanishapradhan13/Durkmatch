@@ -67,6 +67,7 @@ export interface RegisterData {
   gender: 'male' | 'female' | 'other';
   dzongkhag: string;
   bio?: string;
+  profile_photos?: string[];
   interests?: string[];
   education?: string;
   occupation?: string;
